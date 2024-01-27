@@ -6,10 +6,13 @@ public class LearnBubbleSort {
     public static void main(String[] args) {
         int[] array = {15, 23, 43, 32, 1, 2, 45, 12};
         int[] array2 = {1, 2, 3, 4, 5, 6};
+        int[] array3 = {-32, -78, -1, 25, 13, 45, 15, -66};
         bubbleSort(array);
         System.out.println(Arrays.toString(array));
         efficientBubbleSort(array2);
+        efficientBubbleSort(array3);
         System.out.println(Arrays.toString(array2));
+        System.out.println(Arrays.toString(array3));
     }
 
     private static void bubbleSort(int[] array) {
