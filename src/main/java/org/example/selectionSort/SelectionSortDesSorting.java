@@ -16,7 +16,6 @@ public class SelectionSortDesSorting {
         for (int i = 0; i < n - 1; i++) {
             int maxIdx = findMax(numbers, i, n - 1);
             swap(numbers, i, maxIdx);
-
         }
     }
 
