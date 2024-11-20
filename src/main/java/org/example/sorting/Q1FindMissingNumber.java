@@ -34,7 +34,7 @@ public class Q1FindMissingNumber {
         }
         for (int index = 0; index < numbers.length; index++) {
             if (numbers[index] != index) {
-                return index + 1;
+                return index;
             }
         }
         //case 2
