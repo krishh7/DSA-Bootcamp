@@ -2,8 +2,18 @@ package org.example.strings;
 
 public class Palindrome {
     public static void main(String[] args) {
-        String str = null;
-        System.out.println(isPalindrome(str));
+        String s1 = "Hello";
+
+        String s2 = s1.concat(" World");
+        String s3 = new String("Hello World");
+        String s4 = s1.concat(" World").intern();
+
+        System.out.println(s1);
+        System.out.println(s2);
+//        System.out.println(s3);
+        System.out.println(s4);
+//        System.out.println(s2.equals(s3));
+        System.out.println(s2.equals(s4));
     }
 
     private static boolean isPalindrome(String str) {
