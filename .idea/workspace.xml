@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1003b20c-4fa1-42f5-989e-4e41a696da5a" name="Changes" comment="Practice collections">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    <list default="true" id="1003b20c-4fa1-42f5-989e-4e41a696da5a" name="Changes" comment="Practice streams">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8features/streams/StreamExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8features/streams/StreamExample3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +21,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -51,9 +48,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;krishh7&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="609bf894-4c7f-4ade-bfe1-dc2a13b449e7" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/krishh7/DSA-Bootcamp.git&quot;,
+    &quot;accountId&quot;: &quot;609bf894-4c7f-4ade-bfe1-dc2a13b449e7&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2lHELKMLPpLgIIg3alv2BgYmjLs" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -62,37 +77,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.DSA-Bootcamp [:org.example.arrays.MixedArray.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.java8features.LearnOptionalClass.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.java8features.streams.Employee.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.java8features.streams.LearnStreams.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.java8features.streams.StreamCodeSamples.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.java8features.streams.StreamExample3.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.java8features.streams.StreamExample4.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.java8features.streams.Student.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.multiThreading.JMMWorking.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.multiThreading.ThreadLocalExample.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.practice.PFindFirstMissingNumber.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.practice.PStreamsEmployee.main()].executor": "Run",
+    "Gradle.DSA-Bootcamp [:org.example.practice.PracticeOptional.main()].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "collections",
     "last_opened_file_path": "/Users/ktor22/Documents/Learnings/DSA-Bootcamp/DSA-Bootcamp",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.java8features.streams" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradlew clean" />
       <command value="gradlew build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamCodeSamples">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Fibonacci" />
-      <module name="DSA-Bootcamp.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LearnStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8features.streams.LearnStreams" />
+  <component name="RunManager" selected="Application.StreamExample3">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8features.streams.Employee" />
       <module name="DSA-Bootcamp.main" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +126,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamCodeSamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8features.streams.StreamCodeSamples" />
+    <configuration name="PStreamsEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practice.PStreamsEmployee" />
+      <module name="DSA-Bootcamp.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8features.streams.StreamExample3" />
       <module name="DSA-Bootcamp.main" />
       <extension name="coverage">
         <pattern>
@@ -117,55 +152,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DSA-Bootcamp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="StreamExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8features.streams.StreamExample4" />
+      <module name="DSA-Bootcamp.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.java8features.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="DSA-Bootcamp [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8features.streams.Student" />
+      <module name="DSA-Bootcamp.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.java8features.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LearnStreams" />
-        <item itemvalue="Gradle.DSA-Bootcamp [build]" />
-        <item itemvalue="Gradle.DSA-Bootcamp [clean]" />
-        <item itemvalue="Application.StreamCodeSamples" />
-        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.StreamExample4" />
+        <item itemvalue="Application.PStreamsEmployee" />
+        <item itemvalue="Application.StreamExample3" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -227,10 +246,22 @@
       <option name="project" value="LOCAL" />
       <updated>1741602177909</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Practice streams">
+      <created>1742282481071</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742282481071</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5c5bebcc-23ad-46e5-8027-52de1f353966" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="5c5bebcc-23ad-46e5-8027-52de1f353966">
@@ -245,11 +276,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="5c5bebcc-23ad-46e5-8027-52de1f353966" value="TOOL_WINDOW" />
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Solve new array problems" />
@@ -258,7 +284,8 @@
     <MESSAGE value="Practice MultiThreading" />
     <MESSAGE value="FailFast and FailSafe" />
     <MESSAGE value="Practice collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice collections" />
+    <MESSAGE value="Practice streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice streams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,6 +474,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/recursion/Dice.java</url>
           <line>22</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/PlusOne.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/ContainsDuplicatesII.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/practice/PFindFirstMissingNumber.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/practice/PracticeOptional.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
